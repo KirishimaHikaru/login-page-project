@@ -1,0 +1,1 @@
+Proyek ini dibuat dan dikerjakan sebagai penerapan materi dari kelas pada mata kuliah PWEB yang meliputi HTML, CSS, JavaScript, dan PHP. Serta ajang mengimplementasikan ilmu VCS (Git dan GitHub) yang telah dipelajari bersama secara otodidak.
