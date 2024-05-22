@@ -10,10 +10,11 @@ body{
     align-items: center;
     justify-content: center;
     background-color:#004473;
+    color: aliceblue;
 }
 main{
     width: 50em;
-    height: 30em;
+    height: 32em;
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 0px 45px rgba(255, 255, 255, 0.1);
@@ -31,13 +32,22 @@ section{
    flex-direction: column;
 }
 
+.login-left h1{
+   margin: 0;
+}
+.login-left h4{
+   margin:0 0 20px 0;
+}
+.altlogin img{
+   width: 20px;
+}
 .signupbtn{
    display: flex;
    margin: 20px;
    justify-content: space-between;
 }
 .signupbtn h5{
-   margin: 0;
+   margin: 0 20px 0 0;
 }
 input{
    border-radius: 5px;
@@ -51,6 +61,23 @@ section{
 button{
    border-radius: 30px;
    padding: 10px 30px;
+   margin: 20px 20px 0px 20px;
+}
+a{
+   font-size: 10px;
+   color:aqua
+}
+form{
+   text-align: center;
+}
+form label{
+   margin-right: 20px;
+}
+form input:hover,button:hover{
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+   }
+img{
+   width: 200px;
 }
 #submit{
    width: 23em;
@@ -60,6 +87,7 @@ button{
    padding: 0;
 }
 
-img{
-   width: 200px;
+.login-right h5{
+   text-align: center;
 }
+
